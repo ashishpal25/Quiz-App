@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: block;
+    text-align: center;
+    
+
+    }
+    .content{
+        display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 10rem;
+    background-color: aquamarine;
+    padding: 10px 30px 10px  30px;
+    border-style: solid;
+  border-width: 2px;
+    }
+    .heading{
+        text-align: center;
+    }
+    #que{
+        background-color: papayawhip;
+        padding: 10px;
+    }
+    .row{
+        padding: 5px;
+    }
+
+    .btn{
+        position: relative;
+        left: 45%;
+        margin-top: 2px;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    .btn:hover{
+        background:blanchedalmond;
+    }
+
+</style>
+<body>
+<div class="content">
+    <h1 class="heading">Quize app</h1>
+    <div id="form">
+        <h3 id="que">all my q</h3>
+        <div class="row">
+            <input type="radio" class="option" value="a" name="option" id="option1">
+            <label for="option1">option1</label>
+        </div>
+        <div class="row">
+            <input type="radio" class="option" value="b" name="option" id="option2">
+            <label for="option2">option2</label>
+        </div>
+        <div class="row">
+            <input type="radio" class="option" value="c" name="option" id="option3">
+            <label for="option3">option3</label>
+        </div>
+        <div class="row">
+            <input type="radio" class="option" value="d" name="option" id="option4">
+            <label for="option4">option4</label>
+        </div>
+
+        <button class="btn" onclick="submitans()">submit</button>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
